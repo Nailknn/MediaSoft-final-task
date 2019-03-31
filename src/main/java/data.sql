@@ -1,0 +1,13 @@
+INSERT INTO candidates.candidates (candidate_id, firstName, surName, patronymic, dateOfBirth, sex, job_id, phonenumber) VALUES (1, 'Иван', 'Степанов', 'Сергеевич', '1990-03-20', 'М', 1, 362006);
+INSERT INTO candidates.candidates (candidate_id, firstName, surName, patronymic, dateOfBirth, sex, job_id, phonenumber) VALUES (3, 'Виктор', 'Белов', 'Сидорович', '1990-01-10', 'М', 1, 876556);
+INSERT INTO candidates.candidates (candidate_id, firstName, surName, patronymic, dateOfBirth, sex, job_id, phonenumber) VALUES (4, 'Петр', 'Сушкин', 'Викторович', '1991-03-12', 'М', 2, 270706);
+INSERT INTO candidates.candidates (candidate_id, firstName, surName, patronymic, dateOfBirth, sex, job_id, phonenumber) VALUES (5, 'Вероника', 'Ковалева', 'Сергеевна', '1991-07-19', 'Ж', 2, 206544);
+INSERT INTO candidates.interviews (interview_Id, timeInterview, job_Id, candidate_Id, result) VALUES (7, '2019-03-31', 1, 3, 1);
+INSERT INTO candidates.interviews (interview_Id, timeInterview, job_Id, candidate_Id, result) VALUES (8, '2019-03-31', 2, 5, 1);
+INSERT INTO candidates.interviews (interview_Id, timeInterview, job_Id, candidate_Id, result) VALUES (9, '2019-03-31', 3, 1, 0);
+INSERT INTO candidates.interviews (interview_Id, timeInterview, job_Id, candidate_Id, result) VALUES (10, '2019-03-31', 4, 4, 0);
+INSERT INTO candidates.interviews (interview_Id, timeInterview, job_Id, candidate_Id, result) VALUES (11, '2019-03-31', 1, 1, 1);
+INSERT INTO candidates.jobs (job_id, jobName, nameCompany, salary) VALUES (1, 'программист', 'IT компания', '50000');
+INSERT INTO candidates.jobs (job_id, jobName, nameCompany, salary) VALUES (2, 'программистJAVA', 'IT  компания X', '30000.0');
+INSERT INTO candidates.jobs (job_id, jobName, nameCompany, salary) VALUES (3, 'программист PHP', 'Компания 3M', '200000.0');
+INSERT INTO candidates.jobs (job_id, jobName, nameCompany, salary) VALUES (4, 'программист С++', 'компания 1С', '150000.0');
